@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* images */
+.baskan{
+    height: 1000px;    
+    background-image: url("images/baskan11.jpeg");
+    background-size: cover; /* görsel boyutunu orantılı yazarsan resmin bozulmadan sığmasını sağlar*/
+    color: white;
+    background-position: center center;
+    background-attachment: fixed; /*görsel, sayfa kaysa bile sabit durur*/
+}
+
+/* display, block, inline */
+#test-link{
+    display: inline-block;
+    background: #a7a7a7;
+    height: 100px;
+    width: 100px;
+}
+
+/* margin */
+div.box-1{
+    background: #a3a4a5;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    /*üst ve altta boşluk yok, sol sağ ortada*/ 
+    /* margin: 0 auto;  */
+
+    /* top - right - bottom - left */
+    /* margin: 50px 20px 50px 20px; */
+
+    /* top,bottom - right,left */
+    /* margin: 100px 50px; */
+
+    /* margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px; */
+}
+
+/* padding */
+div.box-2{
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: border-box; /* verilen width kadar toplam alan kaplayacak. verilmemesi durumunda paddingler ile box alanı büyüyecektir */    
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; */
+
+    /* padding: 20px 20px 20px 20px; */
+
+    /* padding: 20px; */
+
+    /* padding: 20px 50px; */
+}
+div.box-3{
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* texts */
+h1.heading1{
+    text-align: center;
+}
+h1.heading2{
+    text-align: left;
+}
+h1.heading3{
+    text-align: right;
+}
+div.txt{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+}
+div.txt p{
+    letter-spacing: 2px;
+}
+div.txt p span{
+    color: red;
+    text-decoration: underline;
+}
+div.txt p a{
+    text-decoration: none;
+}
+div.txt h1{
+    text-transform: capitalize; /*sadece baş harf büyür*/
+    text-transform: uppercase /*tüm harfler büyür*/
+}
+
+/* fonts */
+h1.fonts{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.fonts{
+    
+}
