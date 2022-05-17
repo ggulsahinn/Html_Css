@@ -15,11 +15,11 @@ a{
 
 #navbar{
     color: white;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 0 0.75rem;
-     height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
 }
 #navbar ul{
     list-style-type: none;
@@ -88,12 +88,11 @@ a{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-
 }
 .courses .course{
     display: flex;
     padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 .courses .course .course-image{
     margin-right: 0.5rem;
@@ -101,10 +100,58 @@ a{
 }
 .courses .course .course-image span{
     background: red;
+    opacity: 0.8;
     padding: 0.25rem;
     color: white;
     border-radius: 5px;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .instructor{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .rating{
+    color: #ffb300;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+/* Contact */
+#contact{
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
 }
